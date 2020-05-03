@@ -1,0 +1,59 @@
+
+<html><head><title>Heart Care</title></head>
+<body style="background:url(heart3.jpg) fixed;background-position:centre;border:10;">
+<center><u><h1 style="color:black;font-size:80px;font-family:sens-serif">Heart Disease Prediction</h1></u></center>
+<center><p style="color:black;font-size:30px;font-family:Aerial"><b>Please provide us the valuable information to predict the accurate result.</b></p></center><br /><br /><br />
+
+<form action='/cgi-bin/data.py'>
+<fieldset style="font-size:18px; width:470px; font-family:Comic Sans MS">
+<legend style="font-size:25px; font-family:sens-serif"><b>Enter your details here</b></legend><br />
+
+Enter your gender
+<input type="radio" name="gen" value="1" /> Male
+<input type="radio" name="gen" value="0" /> Female<br /><br />
+
+
+Enter your age <input type="text" name="age"><br/><br />
+
+
+Are you a smoker? 
+<input type="radio" name="smo" value="1" /> Yes
+<input type="radio" name="smo" value="0" /> No<br /><br />
+
+No. of cigarettes per day <input type="text" name="cigs"><br/><br />
+
+Have you been on BP medication before?
+<input type="radio" name="bp" value="1" /> Yes
+<input type="radio" name="bp" value="0" /> No<br /><br />
+
+Have you faced Strokes before?
+<input type="radio" name="stroke" value="1" /> Yes
+<input type="radio" name="stroke" value="0" /> No<br /><br />
+
+Have you faced HyperTension before?
+<input type="radio" name="hyp" value="1" /> Yes
+<input type="radio" name="hyp" value="0" /> No<br /><br />
+
+Are you diabetic?
+<input type="radio" name="diab" value="1" /> Yes
+<input type="radio" name="diab" value="0" /> No<br /><br />
+
+Enter your total cholestrol level <input type="text" name="chol"><br/><br />
+
+Enter your systolic BP <input type="text" name="sysbp"><br/><br />
+
+Enter your diastolic BP <input type="text" name="diabp"><br/><br />
+
+Enter your current BMI <input type="text" name="bmi"><br/><br />
+
+Enter your current HeartRate <input type="text" name="heartrate"><br/><br />
+
+Enter your current Glucose level <input type="text" name="glucose"><br /><br />
+
+<center><input type="submit" value="Submit" name="submit" style="width:100px; height:40px"></center>
+
+</fieldset>
+</form>
+</body></html>
+
+
